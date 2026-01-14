@@ -1,0 +1,50 @@
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.custom-table th {
+  background-color: #213c51;
+  color: #ffffff;
+  border: 1px solid #b0b0b0;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table td {
+  background-color: #6594b1;
+  color: #ffffff;
+  border: 1px solid #b0b0b0;
+  padding: 8px;
+}
+
+.btn {
+  background-color: #547792;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.action-add {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+}
+
+/* Add Button */
+.btn-add {
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* Edit & Delete Button */
+.btn-edit,
+.btn-delete {
+  border-radius: 4px;
+  margin-right: 6px;
+}

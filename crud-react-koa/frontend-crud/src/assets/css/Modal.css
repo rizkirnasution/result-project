@@ -1,0 +1,79 @@
+/* overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* modal box */
+.modal {
+  background: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* title */
+.modal h3 {
+  margin-top: 0;
+}
+
+/* input */
+.modal input {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 6px;
+    border: 1px solid #000; /* hitam */
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+/* action buttons */
+.modal-actions {
+  margin-top: 10px;
+}
+
+.modal-actions button {
+  margin-right: 8px;
+}
+
+.modal label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.form-label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.modal select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  background-color: #213c51;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
